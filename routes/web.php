@@ -37,17 +37,21 @@ Route::get('/', function () {
 
 
 
-// Route::get('/home', function () {
-//     return view('home');
-// });
+Route::get('/home', function () {
+    return view('home');
+});
 
-// Route::get('/about', function () {
-//     return view('about');
-// });
+Route::get('/about', function () {
+    return view('about');
+});
 
-// Route::get('/services',function() {
-//     return view('services');
-// });
+Route::get('/services',function() {
+    return view('services');
+});
+
+Route::get('/gallery',function(){
+    return view ('gallery');
+});
 
 
 
@@ -58,3 +62,5 @@ Route::get('/array',[HomeController :: class, 'array']);
 Route::get('/book',[HomeController :: class, 'booklist']);
 Route::get('/fruits',[HomeController::class,'fruitlist']);
 Route::get('/hobby' , [HomeController :: class , 'hobbies']);
+
+

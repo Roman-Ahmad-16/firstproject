@@ -8,29 +8,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/homepage',function(){
-//     return "home page";
-// });
+Route::get('/homepage',function(){
+    return "home page";
+});
 
-// Route::get('/about-us',function(){
-//     return "about page";
-// });
+Route::get('/about-us',function(){
+    return "about page";
+});
 
-// Route::get('/services',function(){
-//     return "services page";
-// });
+Route::get('/services',function(){
+    return "services page";
+});
 
-// Route::get('/gallery' , function(){
-//     echo "<h1>THIS IS MY FIRST GALLERY PAGE</h1>" ;
-// });
+Route::get('/gallery' , function(){
+    echo "<h1>THIS IS MY FIRST GALLERY PAGE</h1>" ;
+});
 
-// Route::get('/add-nub', function(){
-//     $a=10;
-//     $b=90;
-//     $sum=$a+$b;
+Route::get('/add-nub', function(){
+    $a=10;
+    $b=90;
+    $sum=$a+$b;
 
-//     echo "<h1>Sum of numbers = </h1>".$sum;
-// });
+    echo "<h1>Sum of numbers = </h1>".$sum;
+});
 
 
 
